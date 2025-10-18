@@ -31,9 +31,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 
-# ==========================
 # CLASSIFIER EVIDENTIAL WRAPPER
-# ==========================
 class EvidentialWrapper:
     """A pragmatic evidential-style wrapper for sklearn classifiers."""
 
